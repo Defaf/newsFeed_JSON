@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:defaultValue="@string/Edit_page_default_value"
+        android:inputType="number"
+        android:key="@string/Edit_page_key"
+        android:selectAllOnFocus="true"
+        android:title="@string/Edit_pagelable_name" />
+
+    <ListPreference
+        android:defaultValue="@string/list_default_value"
+        android:key="@string/list_key"
+        android:title="Order by"
+        android:entries="@array/order"
+        android:entryValues="@array/order"/>
+
+</PreferenceScreen>
